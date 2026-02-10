@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/foodie-favicon.png" type="image/x-icon">
     <title>Foodie</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" 
         referrerpolicy="no-referrer" />
 </head>
@@ -167,7 +168,32 @@
                 </div>
                 <div class="content">
                     <h5>Our reviews</h5>
-                    <h2>What thet say?</h2>
+                    <h2>What they say?</h2>
+                    <div class="review-container">
+                        <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="flex gap-2">
+                                    <div class="profile">
+                                        <img src="images/profile1.jpeg" alt="">
+                                    </div>
+                                    <div>
+                                        <h4>Guy Hawkins</h4>
+                                        <div>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Foodie is the best. Besides the many delicious meal the service is also very good, espacially very fast deliery. I highly recommend Foodie to you.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -178,5 +204,7 @@
        <footer>
 
        </footer>
+       <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+       <script  src="main.js"></script>
 </body>
 </html>
